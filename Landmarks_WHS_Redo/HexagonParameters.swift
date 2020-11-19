@@ -55,3 +55,9 @@ struct HexagonParameters {
         )
     ]
 }
+
+struct HexagonParameters_Previews: PreviewProvider {
+    static var previews: some View {
+        Badge()
+    }
+}
