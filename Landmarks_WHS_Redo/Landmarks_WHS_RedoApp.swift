@@ -11,7 +11,8 @@ import SwiftUI
 struct Landmarks_WHS_RedoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandmarkList()
+                .environmentObject(UserData())
         }
     }
 }
